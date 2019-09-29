@@ -42,7 +42,7 @@ public class PeopleRepositoryFacade {
 	private HttpHeaders buildHeader() {
 		HttpHeaders headers = new HttpHeaders();
 		headers.setContentType(MediaType.APPLICATION_JSON);
-		headers.add("User-Agent", "firefox");
+		headers.add("User-Agent", "firefox"); 
 		return headers;
 	}
 
